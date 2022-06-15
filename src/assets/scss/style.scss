@@ -1,0 +1,20 @@
+@import "vars";
+@import "mixins";
+
+html { scroll-behavior: smooth }
+
+body {
+    font-weight: 400;
+    font-size: 20px;
+    
+    min-width: 320px;
+    overflow: auto;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import 'fonts';
+@import 'global';
+
+@import './blocks/map.scss';
+@import './blocks/navigation.scss';

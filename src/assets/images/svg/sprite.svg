@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <symbol viewBox="0 0 7 11" id="sliderArrow">
+        <g width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0.948198" y1="0.766157" x2="5.68752" y2="5.50548" stroke="black" stroke-width="1.18483"/>
+            <line x1="0.897855" y1="10.1677" x2="6.03212" y2="4.99387" stroke="black" stroke-width="1.18483"/>
+        </g>
+    </symbol>
+
+</svg>

@@ -1,0 +1,53 @@
+.map__navigation {
+    display: flex;
+    position: relative;
+
+    height: 60px;
+
+    &-fraction {
+        position: absolute;
+        top: 50%;
+        left: 50% !important; // Использовал !important чтобы перебить стили плагина SWIPER
+        transform: translate(-50%, -50%) !important; // Использовал !important чтобы перебить стили плагина SWIPER
+
+        font-weight: 600;
+    }
+
+    &-arrow {
+        background-color: transparent;
+        height: fit-content;
+
+        width: 60px;
+        height: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        z-index: 20;
+        position: absolute;
+
+        top: 50%;right: 0;
+        transform: translateY(-50%);
+
+        transition: .4s;
+        padding: 0;
+
+        svg {
+            width: 36px;
+            height: 24px;
+
+            transition: .4s;
+        }
+        
+
+        &--prev {
+            transform: rotate(180deg) translateY(50%);
+            left: 0;right: initial;
+        }
+    }
+    
+    .swiper-button-disabled {
+        cursor: default;
+    }
+}
